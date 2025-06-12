@@ -1,4 +1,4 @@
-# AWSProject_DevOps_1
+# AWSProject_DevOps_1    -- If you want the steps to see go with code
  An Organization is using an EC2 Instance, S3 Bucket, Lambda Function, and IAM for users. Our goal is that every day at a certain time, we need to report the usage of these resources in the project to our manager.
 
 We will write a shell script to execute this task. The shell script can be integrated with a CronJob. So, the Linux project will wait for the scheduled time and automatically execute the script. This task can be accomplished in several ways, however here I have used Shell Scripting and AWS CLI for the same.
